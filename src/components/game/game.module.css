@@ -1,0 +1,12 @@
+.pieceRed{
+  background: red;
+}
+.pieceYellow{
+  background: yellow;
+}
+
+.pieceRed, .pieceYellow{
+  border-radius: 50%;
+  width: 3.98rem;
+  height: 3.98rem;
+}
