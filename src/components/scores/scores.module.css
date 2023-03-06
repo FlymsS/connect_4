@@ -1,0 +1,18 @@
+.score{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #86dffc;
+}
+
+.player{
+  font-family: roboto;
+  font-size: 1.5rem;
+  display: flex;
+  color: #fa6c3f;
+}
+.number{
+  margin: 0.2rem 0 0 1rem;
+  color: red;
+}

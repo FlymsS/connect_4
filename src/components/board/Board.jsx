@@ -15,11 +15,11 @@ export default function Board({plays, player, handleClickColumn}) {
   }
 
   const getClass = (i,j) => {
-    if(plays[i][j] == 1) return styles.red;
-    if(plays[i][j] == 2) return styles.yellow;
-    if(plays[i][j] == 0 && columnMouseUp !== j) 
+    if(plays[i][j] === 1) return styles.red;
+    if(plays[i][j] === 2) return styles.yellow;
+    if(plays[i][j] === 0 && columnMouseUp !== j) 
       return styles.square;
-    if(plays[i][j] == 0 && columnMouseUp == j)
+    if(plays[i][j] === 0 && columnMouseUp === j)
       return styles.next;
     //columnMouseUp == j? styles.next :
   }
