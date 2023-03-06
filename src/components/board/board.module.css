@@ -16,6 +16,27 @@
   height: 4rem;
   margin: 0.5rem;
 }
+.yellow{
+  background-color: yellow;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+.red{
+  background-color: red;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+.next{
+  background-color: green;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
 .row{
   display: flex;
   flex-direction: row;
